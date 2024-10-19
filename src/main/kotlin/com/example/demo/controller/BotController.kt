@@ -11,6 +11,8 @@ import org.springframework.web.reactive.function.client.WebClient
 
 /**
  * Контроллер, выполняющий получение и обработку событий от Callback API
+ *
+ * @param client бин WebClient, выполняющий запросы к API ВКонтакте от имени сообщества
  */
 @RestController
 @RequestMapping("/callback")
